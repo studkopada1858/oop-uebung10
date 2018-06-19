@@ -64,8 +64,8 @@ Die Lösung ist eine _abstrakte Basisklasse_ (`abstract class`), in der die Meth
 
 Gegeben ist ein Teil der Musterlösung der letzten Aufgabe, in der `Bremse` ein Interface ist.
 
-1. Zeichnen Sie ein UML Diagramm. Modellieren Sie dazu die `Bremse` als abstrakte Basisklasse, welche Hersteller (`String`) und Seriennummer (`String`) als private Attribute modelliert und die Methode `void bremsen()` vorschreibt.
-2. Passen Sie die vorgegebene Implementierung so an, dass sie dem UML Diagramm entspricht. 
+1. Zeichnen Sie ein UML Diagramm. Modellieren Sie dazu die `Bremse` als abstrakte Basisklasse, welche Hersteller (`String`) und Seriennummer (`String`) als private Attribute modelliert und die Methoden `void bremsen()` und `void brauchtService()` vorschreibt.
+2. Passen Sie die vorgegebene Implementierung so an, dass sie dem UML Diagramm entspricht. Verwenden Sie Fantasiewerte für Hersteller und Seriennummer. 
 3. Stellen Sie sicher, dass alle Tests in `BremseTests` erfolgreich laufen.
 
 
