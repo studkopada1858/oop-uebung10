@@ -1,0 +1,81 @@
+@startuml bremsen
+
+abstract class Bremse {
+	-hersteller: String
+	-seriennummer: String
+	+Bremse(hersteller: String, seriennummer: String)
+
+	+getHersteller(): String
+	+getSeriennummer(): String
+
+	+abstract bremsen()
+	+abstract brauchtService(): boolean
+}
+
+class Cantileverbremse extends Bremse {
+	-belagLinks: int
+	-belagRechts: int
+
+	+bremsen()
+	+brauchtService(): boolean
+	+toString(): String
+}
+
+class Scheibenbrense extends Bremse {
+	-riefentiefe: int
+	-belag: int
+
+	+bremsen()
+	+brauchtService(): boolean
+	+toString(): String
+}
+
+class Trommelbremse extends Bremse {
+	-belag: int
+
+	+bremsen()
+	+brauchtService(): boolean
+	+toString(): String
+}
+
+@enduml
+
+@startuml formen.svg
+
+abstract class Volumen {
+	-h: double
+	+Volumen(h: double)
+
+	+abstract grundflaeche(): double
+	+double volumen()
+}
+
+class DreiecksPrisma extends Volumen {
+	-a: double
+	-b: double
+	-c: double
+	+DreiecksPrisma(a: double, b: double, c: double, h: double)
+	+grundflaeche(): double
+}
+
+class Quader extends Volumen {
+	-a: double
+	-b: double
+	+Quader(a: double, b: double, h: double)
+	+grundflaeche(): double
+}
+
+class Zylinder extends Volumen {
+	-r: double
+	+Zylinder(r: double, h: double)
+	+grundflaeche(): double
+}
+
+class ZylindrischesRohr extends Volumen {
+	-r1: double
+	-r2: double
+	+ZylindrischesRohr(r1: double, r2: double, h: double)
+	+grundflaeche(): double
+}
+
+@enduml

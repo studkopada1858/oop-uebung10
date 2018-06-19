@@ -68,6 +68,7 @@ Gegeben ist ein Teil der Musterlösung der letzten Aufgabe, in der `Bremse` ein 
 2. Passen Sie die vorgegebene Implementierung so an, dass sie dem UML Diagramm entspricht. Verwenden Sie Fantasiewerte für Hersteller und Seriennummer. 
 3. Stellen Sie sicher, dass alle Tests in `BremseTests` erfolgreich laufen.
 
+![Bremsen](bremsen.svg)
 
 # Dreidimensionale Formen
 
@@ -83,6 +84,8 @@ Im Paket `ueb10.formen` sind bereits die Klassendateien `Volumen.java`, `Dreieck
 	2. Verdeutlichen Sie sich, welche Werte zur Berechnung des Volumens nötig sind, und in welcher Klasse diese bestimmt werden können.
 2. Vervollständigen Sie die vorgegebenen Klassenrümpfe entsprechend Ihrem Diagramm, und implementieren Sie die Methoden.
 3. Stellen Sie sicher Tests in `VolumenTests` erfolgreich sind.
+
+![Formen](formen.svg)
 
 ## Hinweise 
 

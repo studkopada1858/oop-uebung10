@@ -9,6 +9,14 @@ public abstract class Bremse {
 		this.seriennummer = seriennummer;
 	}
 
+	public String getHersteller() {
+		return hersteller;
+	}
+
+	public String getSeriennummer() {
+		return seriennummer;
+	}
+
 	public abstract void bremsen();
 	public abstract boolean brauchtService();
 }
