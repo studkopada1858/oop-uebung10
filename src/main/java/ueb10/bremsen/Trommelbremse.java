@@ -1,11 +1,12 @@
 package ueb10.bremsen;
 
-public class Trommelbremse implements Bremse {
+public class Trommelbremse extends Bremse {
 	private int belag;
 	private static final int MIN_BELAG = 2;
 	private static final int MAX_BELAG = 8;
 
 	public Trommelbremse() {
+		super("Hans", "dampf");
 		this.belag = MAX_BELAG;
 	}
 
