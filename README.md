@@ -86,6 +86,7 @@ Im Paket `ueb10.formen` sind bereits die Klassendateien `Volumen.java`, `Dreieck
 
 ## Hinweise 
 
+- Rechnen Sie durchwegs mit Gleitkommazahlen.
 - Die Dreiecksfläche kann mit dem [Satz von Heron](https://de.wikipedia.org/wiki/Dreiecksfl%C3%A4che) aus den drei Seitenlängen berechnet werden.
 - Der Querschnitt eines Rohres kann mit dem Innen- und Aussenradius berechnet werden.
 - Es ist eine abstrakte Basisklasse erforderlich, welche sowohl konkrete als auch abstrakte Methoden hat.
