@@ -1,13 +1,14 @@
 package ueb10.bremsen;
 
-public class Cantileverbremse implements Bremse {
+public class Cantileverbremse extends Bremse {
 	private static final int MAX_BELAG = 5;
 	private static final int MIN_BELAG = 1;
 
 	private int belagLinks;
 	private int belagRechts;
 
-	public Cantileverbremse() {
+	public Cantileverbremse(String hersteller, String seriennummer) {
+		super(hersteller,seriennummer);
 		this.belagLinks = this.belagRechts = MAX_BELAG;
 	}
 

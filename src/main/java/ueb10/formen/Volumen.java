@@ -1,4 +1,11 @@
 package ueb10.formen;
 
-public class Volumen {
+public abstract class Volumen {
+
+    public double hoehe;
+    public double volumen(){
+        return grundflaeche()*hoehe;
+    }
+    public abstract double grundflaeche();
+
 }
